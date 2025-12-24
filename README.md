@@ -32,20 +32,20 @@ The analog message signal is first generated as a cosine waveform and discretize
 
 At the receiver, non-coherent demodulation is performed by passing the received signal through a device, which produces a DC component proportional to the signal envelope along with a high-frequency term. Envelope detection (low-pass filtering) removes the high-frequency component to recover the NRZ waveform. The recovered NRZ signal is then converted back into binary data, decoded into quantized sample values, and envelope detection is applied to reconstruct the signal. Finally, the reconstructed signal is compared with the original analog signal to verify successful transmission and reception.
 
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/4a43d970-a20d-45e7-b369-b9941eb517f5" />
+![Original Message](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/4a43d970-a20d-45e7-b369-b9941eb517f5" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/30d442b2-e0f8-40b5-a567-b19c84e7ecef" />
+![Samples](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/30d442b2-e0f8-40b5-a567-b19c84e7ecef" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a01cbb5d-fff9-4112-b2da-eadd65b54796" />
+![Quantization](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a01cbb5d-fff9-4112-b2da-eadd65b54796" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/b3ed67fd-1983-493d-ada6-c92a6bbecf22" />
+![Pulses](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/b3ed67fd-1983-493d-ada6-c92a6bbecf22" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/8411a145-23a1-4fd6-9c77-7598e9045392" />
+![BASK](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/8411a145-23a1-4fd6-9c77-7598e9045392" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/7c0c4ede-0d0d-493b-9f8f-78d5f752bc67" />
+![Envelope detection](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/7c0c4ede-0d0d-493b-9f8f-78d5f752bc67" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/f375daa9-7e00-4e6c-a889-64c5ad132621" />
+![Received Pulses](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/f375daa9-7e00-4e6c-a889-64c5ad132621" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/c28557a2-0f6f-474f-bff3-7e40fd071a7c" />
+![Samples](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/c28557a2-0f6f-474f-bff3-7e40fd071a7c" />
 )
-![Alt text](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/1ff89787-31fc-40e3-9c1a-499039d5fece" />)
+![Comparision](<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/1ff89787-31fc-40e3-9c1a-499039d5fece" />)
